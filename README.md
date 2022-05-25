@@ -4,7 +4,10 @@ Versão da página de agendamento do Fresh Look desenvolvida em ReactJS.
 # Get started
 # Iniciar
 
- Run:
+After dowload/clone\
+Após baixar/clonar
+
+ Run:\
  Execute: 
 
 ### `npm start`
