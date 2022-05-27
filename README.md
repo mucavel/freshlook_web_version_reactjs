@@ -9,6 +9,10 @@ Após baixar/clonar
 
  Run:\
  Execute: 
+## `npm install`
+
+And after\
+E depois
 
 ### `npm start`
 
