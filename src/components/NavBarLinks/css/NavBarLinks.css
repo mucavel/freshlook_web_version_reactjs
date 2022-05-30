@@ -1,0 +1,31 @@
+h1{
+    padding: .5rem 0;
+    font-family: var(--logo-font-family);
+    font-size: 38pt;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.links li{
+    list-style: none;
+    padding: 1rem .5rem;
+    margin-top: .5rem;
+}
+.links a{
+    padding: 1rem .5rem;
+    font-size: var(--link-font-size);
+    text-transform: uppercase;
+}
+.links a:hover{
+    border-bottom: 2px solid var(--brown);
+}
+.links img{
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+}
+.links img:hover{
+    cursor: pointer;
+}

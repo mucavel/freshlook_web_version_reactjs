@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 import './css/Header.css';
-import Navbar from '../../components/Navbar/Navbar';
-import Greenting from '../../components/Greeting/Greeting';
+import NavBar from "../../components/NavBar/NavBar";
+import Greeting from "../../components/Greetings/Greeting";
 
-const Header = () => {
-    return(
-        <header className='headerContainer'>
-            <section className='fader'>
-                <Navbar />
-                <Greenting />
-            </section> 
-        </header>
-    );
+class Header extends React.Component {
+    render(){
+        return(
+            <section id="home">
+                <div className="headerContainer">
+                    <NavBar />
+                    <Greeting />
+                </div>
+            </section>
+        );
+    }
 }
 export default Header;

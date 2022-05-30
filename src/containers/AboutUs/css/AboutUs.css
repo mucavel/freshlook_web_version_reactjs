@@ -1,0 +1,52 @@
+.aboutUs,
+.aboutUsH2,
+.aboutUsContainer{
+    width: 100%;
+}
+.about-txt,
+.about-img{
+    width: 50%;
+}
+.aboutUsH2,
+.about-txt h3{
+    text-transform: uppercase;
+}
+.aboutUsH2{
+    text-align: center;
+    padding: 1.5rem 0 2.5rem 0;
+}
+.about-txt{
+    text-align: center;
+}
+span{
+    color: var(--brown);
+    text-decoration: underline;
+}
+.aboutUsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    min-height: 50vh;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 15px rgb(141, 134, 134);
+}
+.about-txt h1{
+    color: var(--brown);
+    font-size: 28pt;
+    padding: 1rem 0 0 0;
+}
+.about-txt h3{
+    padding: 1.5rem 0 0 0;
+}
+.about-txt p{
+    line-height: 35px;
+    font-size: 14pt;
+}
+.about-img{
+    border-radius: 10px;
+    background: url(../../../images/about-us.webp);
+    background-size: cover;
+}

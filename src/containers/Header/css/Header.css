@@ -1,16 +1,18 @@
-.headerContainer{
-  width: 100%;
-  min-height: 100vh;
-  background: url(../../../images/header-bg.webp);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: var(--header-text-color);
-  position: relative;
+#home{
+    background: url(../../../images/header-bg.webp);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--header-text-color);
 }
-.fader{
-  width: 100%;
-  min-height: 100vh;
-  background-color: rgba(0,0,0,.3);
-  position: relative;
+.headerContainer{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,.5);
+}
+a{
+    color: var(--header-text-color);
+    text-decoration: none;
 }

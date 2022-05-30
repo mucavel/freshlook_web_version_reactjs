@@ -1,31 +1,8 @@
-.navbarContainer, .navbar{
+.navbar{
     width: 100%;
-}
-.navbar, .links ul{
+    position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-}
-.navbar{
-    /* background-color: rgb(44, 196, 196); */
     justify-content: space-around;
-}
-.logo h1{
-    color: var(--logo-color);
-    font-size: 26pt;
-    font-family: var(--logo-font-family);
-    padding: .2rem 0;
-}
-.links ul li{
-    list-style: none;
-    margin: 1rem;
-}
-.links ul li a{
-    text-decoration: none;
-    color: var(--link-color);
-    font-size: var(--link-font-size);
-    padding: 1rem 0;
-}
-.links ul li a:hover{
-    border-bottom: 2px solid var(--brown);
+    flex-wrap: wrap;
 }

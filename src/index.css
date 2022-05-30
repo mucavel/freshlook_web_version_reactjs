@@ -1,19 +1,84 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../public/fonts/OpenSans-Regular.woff);
+}
+@font-face {
+  font-family: 'Great Vibes';
+  src: url(../public/fonts/GreatVibes-Regular.woff);
+}
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  /*----------------COLORS--------------*/
+  /*-------------LIGHT MODE-------------*/
+  --body-bg-color: #ffffff;
+  --header-text-color: #fff;
+  --services-bg-color: rgb(248, 246, 246);
+  --servicesCard-bg-color: #fff;
+  --services-box-shadow: 2px 2px 5px rgb(128, 128, 128);
+  --services-border: 1px solid rgb(131, 130, 130);
+  --brown: rgb(124, 126, 14);
+  --hover-brown: rgb(141, 141, 10);
+
+  /*--------FONT-SIZE-----------------*/
+  --logo-font-family : 'Great Vibes', Cursive, Arial, sans-serif;
+  --link-font-size: 15pt;
+}
 *{
   margin: 0;
   padding: 0;
 }
-:root{
+body{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  background-color: var(--body-bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root{ */
   /*------FONT-FAMILY-----------*/
-  --logo-font-family: cursive, sans-serif;
+  /* --logo-font-family: cursive, sans-serif; */
 
   /*--------FONT-SIZE------------*/
-  --link-font-size: 14pt;
+  /* --link-font-size: 14pt; */
   /*-------------COLORS------------*/
-  --header-text-color: #fff;
+  /* --header-text-color: #fff;
   --brown: rgb(124, 126, 14);
   --hover-brown: rgb(141, 143, 41);
-}
-html{
+} */
+/* html{
   scroll-behavior: smooth;
 }
 body {
@@ -28,4 +93,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

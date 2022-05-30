@@ -1,0 +1,41 @@
+.greetings{
+    width: 30%;
+    margin: 12% auto;
+    text-align: center;
+    position: relative;
+}
+.greeting-titles,
+.greeting-txt,
+.greeting-btn-container{
+    width: 100%;
+}
+.greeting-titles h1{
+    font-size: 32pt;
+    padding: 1.5rem 0;
+    font-weight: 100;
+}
+.greeting-titles h2{
+    text-transform: uppercase;
+}
+.greeting-txt{
+    margin: 0 0 2rem 0;
+}
+.greeting-txt p{
+    font-size: 16pt;
+}
+.btn-reserv{
+    background-color: var(--brown);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-reserv a{
+    line-height: 50px;
+    font-size: 12pt;
+    padding: 0 3rem;
+    text-transform: uppercase;
+}
+.btn-reserv:hover{
+    background-color: var(--hover-brown);
+}
+

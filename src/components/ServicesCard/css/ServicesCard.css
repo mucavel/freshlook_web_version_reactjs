@@ -1,0 +1,35 @@
+#services{
+    width: 100%;
+    background: var(--services-bg-color);
+}
+.cardsContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.serviceCard{
+    width: 30%;
+    min-height: 300px;
+    text-align: center;
+    border: var(--services-border);
+    margin: 0 auto 2.5rem auto;
+    background-color: var(--servicesCard-bg-color);
+    box-shadow: var( --services-box-shadow);
+    border-radius: 5px;
+}
+.serviceCard img{
+    padding: 1rem 0 0 0;
+    width: 60px;
+    height: 60px;
+}
+.serviceCard h4{
+    font-size: 12pt;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+.serviceCard p{
+    font-size: 14pt;
+    padding: 0 1rem 1rem 1rem;
+}
