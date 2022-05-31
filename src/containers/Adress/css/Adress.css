@@ -1,0 +1,13 @@
+#adress,
+.contact{
+    min-height: 60vh;
+}
+.adressH2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}

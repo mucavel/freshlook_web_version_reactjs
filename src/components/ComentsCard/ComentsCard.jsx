@@ -11,7 +11,7 @@ const ComentsCard = ({profilePic, coment, clientName}) => {
                 <p>"{coment}"</p>
             </div>
             <div className="client">
-                <p><b>-{clientName}-</b></p>
+                <p><b>- {clientName} -</b></p>
             </div>
         </div>
     );

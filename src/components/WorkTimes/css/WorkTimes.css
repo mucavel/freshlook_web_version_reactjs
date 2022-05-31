@@ -1,0 +1,19 @@
+.workTimes{
+    color: #fff;
+    background: url(../../../images/front-barber-shop.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+}
+.workTimes h3{
+    color: var(--brown);
+    padding: 1rem 0;
+}
+.fader{
+    background: rgba(0,0,0,.7);
+    padding: 0 0 0 2rem;
+    height: 100%;
+}
+.fader p{
+    line-height: 30px;
+}

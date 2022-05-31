@@ -24,6 +24,7 @@ html{
   /*--------FONT-SIZE-----------------*/
   --logo-font-family : 'Great Vibes', Cursive, Arial, sans-serif;
   --link-font-size: 15pt;
+  --paragraph-font-size: 14pt;
 }
 *{
   margin: 0;
@@ -33,7 +34,9 @@ body{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   background-color: var(--body-bg-color);
 }
-
+body p{
+  font-size: var(--paragraph-font-size);
+}
 
 
 
