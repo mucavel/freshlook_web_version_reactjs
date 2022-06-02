@@ -1,4 +1,4 @@
-import profile from '../../images/profile.webp';
+import profile from '../images/profile.webp';
 
 export const ComentsList = [
     {

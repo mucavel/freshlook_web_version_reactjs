@@ -47,6 +47,6 @@ span{
 }
 .about-img{
     border-radius: 10px;
-    background: url(../../../images/about-us.webp);
+    background: url(../../../assets/images/about-us.webp);
     background-size: cover;
 }

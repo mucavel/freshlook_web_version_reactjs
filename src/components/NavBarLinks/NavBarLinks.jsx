@@ -1,6 +1,6 @@
 import React from "react";
 import './css/NavBarLinks.css';
-import AparenceToggle from '../../images/moon.webp';
+import AparenceToggle from '../../assets/images/moon.webp';
 
 const NavBarLinks = () => {
     return(

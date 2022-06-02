@@ -8,7 +8,7 @@ const ServicesCard = ({img, title, text}) => {
                 <img src={img} alt="Serviço" />
             </div>
             <div className="servicesTitle">
-                <h4>{title}</h4>
+                <h3>{title}</h3>
             </div>
             <div className="servicesParagraph">
                 <p>{text}</p>

@@ -8,6 +8,7 @@ import AboutUs from './containers/AboutUs/AboutUs';
 import Services from './containers/Services/Services';
 import Coments from './containers/Coments/Coments';
 import Adress from './containers/Adress/Adress';
+import Footer from './containers/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,7 @@ root.render(
     <Services />
     <Coments />
     <Adress />
-    <Coments />
+    <Footer />
   </React.StrictMode>
 );
 reportWebVitals();

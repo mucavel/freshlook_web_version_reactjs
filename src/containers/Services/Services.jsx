@@ -1,6 +1,6 @@
 import React from "react";
 import './css/Services.css';
-import { CardContent } from "./CardContent";
+import { CardContent } from "../../assets/TextFiles/CardContent";
 import ServicesCardList from "../../components/ServicesCard/ServiceCardList";
 
 

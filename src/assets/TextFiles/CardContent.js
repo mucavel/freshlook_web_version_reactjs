@@ -1,9 +1,9 @@
-import haircutMachine from '../../images/haircut-machine.webp';
-import beardShaving from '../../images/beard-shaving.webp';
-import beardCut from '../../images/beard-cut.webp';
-import hairColoring from '../../images/hair-coloring.webp';
-import hairTreat from '../../images/hair-treat.webp';
-import faceMasking from '../../images/face-masking.webp';
+import haircutMachine from '../../assets/images/haircut-machine.webp';
+import beardShaving from '../../assets/images/beard-shaving.webp';
+import beardCut from '../../assets/images/beard-cut.webp';
+import hairColoring from '../../assets/images/hair-coloring.webp';
+import hairTreat from '../../assets/images/hair-treat.webp';
+import faceMasking from '../../assets/images/face-masking.webp';
 
 export const CardContent = [
     {

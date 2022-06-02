@@ -1,6 +1,6 @@
 import React from "react";
 import './css/Coments.css';
-import { ComentsList } from './ComentsList';
+import { ComentsList } from '../../assets/TextFiles/ComentsList';
 import ComentsCard from "../../components/ComentsCard/ComentsCard";
 
 const Coments = () => {

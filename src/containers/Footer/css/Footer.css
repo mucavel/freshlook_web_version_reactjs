@@ -1,0 +1,36 @@
+#footer{
+    background: #000;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footerLogo,
+.footerLink{
+    width: 50%;
+}
+.footerLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--brown);
+}
+.footerLogo h1{
+    font-size: 32pt;
+}
+.developer{
+    text-align: center;
+    line-height: 50px;
+}
+.developer p{
+    color: #fff;
+}
+.developerName{
+    text-decoration: none;
+    font-weight: 600;
+}
+.year{
+    text-decoration: none;
+    color: #fff;
+}
