@@ -17,3 +17,9 @@
 .fader p{
     line-height: 30px;
 }
+@media screen and (max-width: 768px) {
+    .workTimes{
+        width: 100%;
+        height: 60vh;
+    }
+ }

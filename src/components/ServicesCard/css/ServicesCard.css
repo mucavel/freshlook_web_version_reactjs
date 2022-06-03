@@ -26,10 +26,35 @@
 }
 .serviceCard h3{
     font-size: 12pt;
-    padding: 1rem 0;
+    padding: 1rem .5rem;
     text-transform: uppercase;
 }
 .serviceCard p{
     font-size: 14pt;
     padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (max-width: 560px) {
+    .cardsContainer{
+        width: 90%;
+    }
+    .serviceCard{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 561px)and (max-width: 1024px){
+    .cardsContainer{
+        width: 90%;
+    }
+    .serviceCard{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1025px)and (max-width: 1280px){
+    .cardsContainer{
+        width: 90%;
+    }
+    .serviceCard{
+        width: 30%;
+    }
 }

@@ -1,6 +1,6 @@
 .greetings{
     width: 30%;
-    margin: 12% auto;
+    margin: 12% auto 0 auto;
     text-align: center;
     position: relative;
 }
@@ -28,6 +28,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 .btn-reserv a{
     line-height: 50px;
@@ -37,5 +38,20 @@
 }
 .btn-reserv:hover{
     background-color: var(--hover-brown);
+}
+
+@media screen and (max-width: 316px){
+    .btn-reserv a{
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 1023px){
+    .greetings{
+        width: 80%;
+        margin: 30% auto 0 auto;
+    }
+    .greeting-titles h2{
+        font-size: 16pt;
+    }
 }
 

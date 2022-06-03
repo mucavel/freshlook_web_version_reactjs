@@ -12,7 +12,7 @@
     min-height: 100vh;
     background: rgba(0,0,0,.5);
 }
-a{
+.headerContainer a{
     color: var(--header-text-color);
     text-decoration: none;
 }

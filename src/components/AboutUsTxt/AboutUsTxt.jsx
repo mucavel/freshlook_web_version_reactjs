@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../Logo/Logo";
+import './css/AboutUsTxt.css';
 
 const AboutUsTxt = () => {
     return(
@@ -8,7 +9,7 @@ const AboutUsTxt = () => {
                 <h3>Barbearia</h3>
                 <Logo />
             </div>
-            <div className="history" style={{textAlign: 'justify',padding: '2rem'}}>
+            <div className="history">
                 <p>
                 A Barbearia Fresk Look surgiu em 2002. Graças aos nossos fieis clientes, 
                 estamos já com mais de 20 anos de existência no mercado. Nesse perído, 

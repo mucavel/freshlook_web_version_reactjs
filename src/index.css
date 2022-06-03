@@ -37,6 +37,9 @@ body{
 body p{
   font-size: var(--paragraph-font-size);
 }
+body h1{
+  font-family: var(--logo-font-family);
+}
 
 
 

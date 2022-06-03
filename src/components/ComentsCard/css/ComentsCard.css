@@ -16,3 +16,16 @@
 .client p{
     padding: 1rem 0;
 }
+
+@media screen and (max-width: 768px) {
+    .comentCard{
+        width: 100%;
+    }
+  
+  }
+  @media screen and (min-width: 769px) and (max-width: 1280px){
+    .comentCard{
+        width: 40%;
+    }
+  
+  }
