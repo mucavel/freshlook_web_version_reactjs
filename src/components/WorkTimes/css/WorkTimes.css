@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 40%;
+
 }
 .workTimes h3{
     color: var(--brown);
@@ -20,6 +21,9 @@
 @media screen and (max-width: 768px) {
     .workTimes{
         width: 100%;
-        height: 60vh;
+        min-height: 60vh;
+    }
+    .fader{
+        min-height: 60vh;
     }
  }

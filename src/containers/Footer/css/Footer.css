@@ -1,6 +1,7 @@
 #footer{
     background: #000;
     width: 100%;
+    position: relative;
 }
 .footerContainer{
     display: flex;
