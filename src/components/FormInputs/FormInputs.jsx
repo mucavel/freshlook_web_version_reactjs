@@ -10,7 +10,8 @@ const FormInputs = () => {
     const dateRef = useRef('')
     const notesRef = useRef('')
 
-    const handleClick = () =>{
+    const handleClick = (e) =>{
+        e.preventDefault()
         console.log(nameRef.current.value)
         console.log(telRef.current.value)
         console.log(ageRef.current.value)
@@ -18,6 +19,7 @@ const FormInputs = () => {
         console.log(priceRef.current.value)
         console.log(dateRef.current.value)
         console.log(notesRef.current.value)
+        
     }
 
     return(
@@ -67,7 +69,7 @@ const FormInputs = () => {
                             <label htmlFor="observacoes">Observações {'(opcional)'}</label>
                             <textarea ref={notesRef} className="observacoes" name="observacoes" id="observacoes" cols="30" rows="9"
                                 placeholder="Observações( max. 120 )" maxLength="120"></textarea>
-                           <input type="submit" className="form-item" id="btn-submit" value="Enviar" onClick={handleClick}/>
+                           <input type="submit" className="form-item" id="btn-submit" value="Enviar" onClick={(e) => {handleClick(e)}}/>
                         </div>
 
                     {/* --------------------------------END RIGHT FORM ----------------------------------*/}
