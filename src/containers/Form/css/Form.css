@@ -1,0 +1,18 @@
+
+#formulario-reserva{
+    width: 100%;
+    min-height: 70vh;
+    height: auto;
+    position: relative;
+}
+.formH2{
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    #formulario-reserva{
+        height: 40vh;
+    }
+}

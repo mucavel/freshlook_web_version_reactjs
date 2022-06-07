@@ -8,6 +8,7 @@ import AboutUs from './containers/AboutUs/AboutUs';
 import Services from './containers/Services/Services';
 import Coments from './containers/Coments/Coments';
 import Adress from './containers/Adress/Adress';
+import Form from './containers/Form/Form';
 import Footer from './containers/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
     <Services />
     <Coments />
     <Adress />
+    <Form />
     <Footer />
   </React.StrictMode>
 );

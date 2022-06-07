@@ -20,6 +20,7 @@ html{
   --services-border: 1px solid rgb(131, 130, 130);
   --brown: rgb(124, 126, 14);
   --hover-brown: rgb(141, 141, 10);
+  --fade-black: rgba(0,0,0, .7);
 
   /*--------FONT-SIZE-----------------*/
   --logo-font-family : 'Great Vibes', Cursive, Arial, sans-serif;

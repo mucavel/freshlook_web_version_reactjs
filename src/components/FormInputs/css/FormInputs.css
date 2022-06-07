@@ -1,0 +1,117 @@
+.formulario-reserva-container{
+    background: url(../../../assets/images/form-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-fader{
+    width: 100%;
+    min-height: 70vh;
+    background-color: var(--fade-black);
+}
+#formulario{
+   width: 50%;
+   height: 100%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+.reserva{
+    color: rgb(174, 177, 6);
+    text-decoration: underline;
+}
+.form{
+    width: 50%;
+}
+.form label{
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    padding: 10px 0 10px 0;
+    font-family: var(--text-font-family);
+}
+input, select, textarea, label, #preco{
+    display: block;
+    margin: 0 auto;
+}
+input, select, textarea{
+    outline: none;
+    background-color: rgb(252, 250, 250);
+    border: none;
+}
+input, #preco{
+    width: 80%;
+    height: 40px;
+    padding: 0 0 0 8px;
+}
+input[type="date"]{
+    width: 80%;
+}
+#preco{
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+#valor, #preco{
+    background-color: rgb(255, 255, 255);
+    /* font-family: var(--text-font-family); */
+    color: rgb(0, 0, 0);
+}
+select{
+    width: 83%;
+    padding: 0 0 0 8px;
+    height: 40px;
+}
+textarea{
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 5px 0 0 8px;
+    resize: none;
+}
+.asteristico{
+    color: rgb(243, 45, 45);
+    text-decoration: none;
+  }
+#btn-submit{
+    background-color: var(--brown);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 30px;
+    height: 45px;
+}
+#btn-submit:hover{
+    background-color: var(--hover-brown);
+    cursor: pointer;
+}
+@media screen and (max-width: 571px){
+    #formulario{
+    width: 100%;
+    flex-direction: column;
+}
+    .form{
+        width: 95%;
+        margin: auto;
+    }
+    #left-form{
+        margin-bottom: 0;
+    }
+} 
+@media screen and (min-width: 572px) and (max-width: 768px){
+    #formulario{
+        width: 80%;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    #formulario{
+        width: 80%;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    #formulario{
+        width: 70%;
+        height: 90vh;
+        flex-direction: row;
+    }   
+}
