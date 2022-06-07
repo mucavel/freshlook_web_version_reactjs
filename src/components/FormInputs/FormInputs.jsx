@@ -20,6 +20,7 @@ const FormInputs = () => {
         console.log(dateRef.current.value)
         console.log(notesRef.current.value)
         
+        
     }
 
     return(
