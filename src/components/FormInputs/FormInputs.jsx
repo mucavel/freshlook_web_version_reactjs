@@ -170,7 +170,7 @@ const FormInputs = () => {
     return(
         <div className="formulario-reserva-container">
             <div className="form-fader">
-                <form id="formulario" method="POST">
+                <form id="formulario" method="POST" action="#form">
 
                     {/* -------------------------------BEGINNING LEFT FORM ----------------------------*/}
 
