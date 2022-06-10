@@ -158,7 +158,7 @@ const FormInputs = () => {
                         clientNotes : clientNotes
                         })
                         alert('Agendado com Sucesso!')
-                        // window.location.reload(true)
+                        window.location.reload(true)
                     }
                     
         }else{
