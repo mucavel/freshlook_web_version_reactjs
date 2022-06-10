@@ -5,7 +5,7 @@ import ComentsCard from "../../components/ComentsCard/ComentsCard";
 
 const Coments = () => {
     return(
-        <section id="Coments">
+        <section id="coments">
             <div className="comentsContainer" id="coments">
                 <div className="comentsH2">
                     <h2>Comentários dos <span>nossos Clientes</span></h2>

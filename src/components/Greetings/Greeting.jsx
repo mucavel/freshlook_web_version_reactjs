@@ -17,7 +17,7 @@ const Greeting = () => {
             </div>
             <div className="greeting-btn-container">
                 <button className="btn-reserv">
-                    <a href="#form">Faça sua Reserva</a>
+                    <a href="#formulario">Faça sua Reserva</a>
                 </button>
             </div>
         </div>

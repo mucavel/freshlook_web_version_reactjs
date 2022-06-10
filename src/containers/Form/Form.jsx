@@ -4,7 +4,7 @@ import FormInputs from "../../components/FormInputs/FormInputs";
 
 const Form = () => {
     return(
-        <section id="formulario-reserva">
+        <section id="form">
             <div className="formH2">
             <h2 id="form-h2">Faça sua <span className="span">Reserva</span></h2>
             </div>

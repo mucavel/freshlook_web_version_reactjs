@@ -16,7 +16,7 @@ const NavBar = () => {
         <a href="#aboutUs">Acerca</a>
         <a href="#services">Serviços</a>
         <a href="#contact">Contacto</a>
-        <a href="#formulario">Reserva</a>
+        <a href="#form">Reserva</a>
       </div>
       <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
         <div className="bar"></div>
