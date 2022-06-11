@@ -147,7 +147,7 @@ const FormInputs = () => {
                     if(clientAge < 6 || clientAge > 80){
                         alert('Idade inválida')
                     }else{
-                        Axios.post("http://localhost:3001/insert", {
+                        Axios.post("http://localhost/insert", {
                             clientName : clientName,
                             clientTel : clientTel,
                             clientAge : clientAge,
@@ -157,11 +157,17 @@ const FormInputs = () => {
                             sessionTime: sessionTime,
                             clientNotes : clientNotes
                             })
+                            .then((response) => {
+                                if(response.data.msg === "Agendado com Sucesso!"){
+                                    alert('Agendado com Sucesso!')
+                                    window.location.reload(true)
+                                }else{
+                                    alert(response.data.msg)
+                                }
+                            })
                             .catch((err) =>{
                                 alert("Ocorreu um erro. Falha ao agendar.")
                             })
-                            
-                        window.location.reload(true)
                     }
                     
         }else{
@@ -230,4 +236,3 @@ const FormInputs = () => {
     );
 }
 export default FormInputs;
-// LOCAL : "http://localhost:3001/insert"
