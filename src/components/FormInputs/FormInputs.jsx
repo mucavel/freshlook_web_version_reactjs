@@ -148,16 +148,19 @@ const FormInputs = () => {
                         alert('Idade inválida')
                     }else{
                         Axios.post("http://localhost:3001/insert", {
-                        clientName : clientName,
-                        clientTel : clientTel,
-                        clientAge : clientAge,
-                        clientHairStyle : clientHairStyle,
-                        price : price,
-                        sessionDate : sessionDate,
-                        sessionTime: sessionTime,
-                        clientNotes : clientNotes
-                        })
-                        alert('Agendado com Sucesso!')
+                            clientName : clientName,
+                            clientTel : clientTel,
+                            clientAge : clientAge,
+                            clientHairStyle : clientHairStyle,
+                            price : price,
+                            sessionDate : sessionDate,
+                            sessionTime: sessionTime,
+                            clientNotes : clientNotes
+                            })
+                            .catch((err) =>{
+                                alert("Ocorreu um erro. Falha ao agendar.")
+                            })
+                            
                         window.location.reload(true)
                     }
                     
@@ -227,19 +230,4 @@ const FormInputs = () => {
     );
 }
 export default FormInputs;
-        // Axios.post("http://localhost:3001/insert", {
-        //     clientName : clientName,
-        //     clientTel : clientTel,
-        //     clientAge : clientAge,
-        //     clientHairStyle : clientHairStyle,
-        //     price : price,
-        //     sessionDate : sessionDate,
-        //     clientNotes : clientNotes
-        // })
-        // window.location.reload(true)
-            // console.log(nameRef.current.value)
-            // console.log(telRef.current.value)
-            // console.log(ageRef.current.value)
-            // console.log(hairstyleRef.current.value)
-            // console.log(price)
-            // console.log(dateRef.current.value)
+// LOCAL : "http://localhost:3001/insert"
