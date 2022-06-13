@@ -121,6 +121,7 @@ const FormInputs = () => {
     const handleClick = (e) => {
         e.preventDefault()
         const clientName = nameRef.current.value
+        const clientTelInt = parseInt(telRef.current.value)
         const clientTel = telRef.current.value
         const clientAge = ageRef.current.value
         const clientHairStyle = hairstyleRef.current.value
@@ -139,6 +140,10 @@ const FormInputs = () => {
             alert('Nome inválido!')
         }else if(clientTel.length !== 9){
             alert('Número incompleto!')
+            console.log(clientTel.length)
+        }else if(isNaN(clientTelInt)){
+            alert('Verifique o número.')
+            console.log(typeof(clientTel))
         }else if(
                 clientTel.substring(0,2) === '82' || clientTel.substring(0,2) === '83'|| 
                 clientTel.substring(0,2) === '84' || clientTel.substring(0,2) === '85'|| 
@@ -147,7 +152,7 @@ const FormInputs = () => {
                     if(clientAge < 6 || clientAge > 80){
                         alert('Idade inválida')
                     }else{
-                        Axios.post("http://localhost/insert", {
+                        Axios.post("http://localhost:3000/insert", {
                             clientName : clientName,
                             clientTel : clientTel,
                             clientAge : clientAge,
@@ -188,7 +193,7 @@ const FormInputs = () => {
                         <input ref={nameRef} type="text" className="form-item" name="nome" id="nome" placeholder="Nome"
                             autoComplete="off" required maxLength="30" />
                         <label htmlFor="telefone">Telefone<span className="asteristico"> *</span></label>
-                        <input ref={telRef} type="tel" className="form-item" name="telefone" id="telefone" placeholder="Telefone"
+                        <input ref={telRef} type="tel" pattern="\d*" className="form-item" name="telefone" id="telefone" placeholder="Telefone"
                             autoComplete="off" required maxLength="9" />
                         <label htmlFor="idade">Idade<span className="asteristico"> *</span></label>
                         <input ref={ageRef} type="text" pattern="\d*" className="form-item" name="idade" id="idade" placeholder="Idade (6-80 anos)"
