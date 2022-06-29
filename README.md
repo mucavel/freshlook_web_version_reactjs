@@ -1,4 +1,4 @@
-# Freshlook Web Version ReactJS (EM DESENVOLVIMENTO)
+# Freshlook Web Version ReactJS
 Versão da página de agendamento do Fresh Look desenvolvida em ReactJS.
 
 # Get started
