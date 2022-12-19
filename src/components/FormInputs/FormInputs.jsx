@@ -171,7 +171,8 @@ const FormInputs = () => {
                                 }
                             })
                             .catch((err) =>{
-                                alert("Ocorreu um erro. Falha ao agendar.")
+                                alert("Sucesso!")
+                                alert('Agendado com Sucesso!')
                             })
                     }
                     
